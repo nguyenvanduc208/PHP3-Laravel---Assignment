@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
 
+
+
 class BrandsController extends Controller
 {
     public function all(){

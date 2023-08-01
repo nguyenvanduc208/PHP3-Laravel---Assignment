@@ -22,6 +22,7 @@
   <link id="pagestyle" href="{{asset('admin/assets/css/soft-ui-dashboard.css?v=1.0.3')}}" rel="stylesheet" />
 </head>
 
+
 <body class="g-sidenav-show  bg-gray-100">
 
   <section class="min-vh-100 mb-8">
@@ -48,7 +49,7 @@
                 {{session('msg')}}
             </div>
             @endif
-            
+
             <div class="card-body">
               <form action='' method="post" role="form text-left">
                   @csrf

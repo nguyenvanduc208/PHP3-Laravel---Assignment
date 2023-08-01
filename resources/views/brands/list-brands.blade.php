@@ -23,6 +23,7 @@
                                       </th>
                                 </tr>
                             </thead>
+
                             <tbody>
                                 @foreach ($brands as $row)
                                     <tr>
@@ -54,7 +55,7 @@
                                                 Remove
                                             </a>
                                           @endauth
-                                            
+
                                         </td>
                                     </tr>
                                 @endforeach
@@ -69,5 +70,5 @@
         </div>
     </div>
 
-    
+
 @endsection

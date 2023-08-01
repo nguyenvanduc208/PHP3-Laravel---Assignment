@@ -9,8 +9,10 @@ use Illuminate\Support\Facades\Validator;
 
 class PlanesController extends Controller
 {
+
+
     public function all(){
-        $brands = Brands::all(); 
+        $brands = Brands::all();
         $planes = Planes::paginate(10);
         $planes->load('brand');
         return view('planes.list',compact('planes'));

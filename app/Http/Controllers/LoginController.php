@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
+
+
     public function viewLogin(){
         return view('login.login');
     }

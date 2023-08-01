@@ -17,6 +17,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="{{asset('admin/assets/img/apple-icon.png')}}">
@@ -56,7 +57,7 @@
                   @else
                       <p class="mb-0">Enter your email and password to sign in</p>
                   @endif
-                  
+
                 </div>
                 <div class="card-body">
                   <form role="form" action='' method="POST">
